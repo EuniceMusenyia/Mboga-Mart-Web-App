@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(235, 213, 213);
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    color: orange;
+}
+
+.signup{
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0, 0.3);
+    background: white;
+    padding: 20px;
+    margin: 8% auto 0;
+    background-repeat: no-repeat;
+    justify-content: center;
+
+}
+
+label, input, button{
+    margin-top: 5%;
+
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: rgb(197, 169, 118) 1px solid;
+    width: 80%;
+}
+label{
+    font-size: large;
+    display: inline-block;
+    text-align: right;
+}
+button{
+    padding: 5px 20px;
+    font-size: larger;
+    background-color: rgb(43, 224, 43);
+    border: none;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        overflow-x: hidden;
+    }
+    input{
+        padding: 5px;
+        border-radius: 5px;
+        border: rgb(197, 169, 118) 1px solid;
+        width: 40%;
+    }
+    .signup{
+        box-shadow: 0 0 px 0 rgba(0,0,0, 0.3);
+        background: white;
+        padding: 0px;
+        margin: 0% auto 0;
+        background-repeat: no-repeat;
+        justify-content: center;
+      
+        
+    }
+    
+    }
+    
+    @media screen  and(max-width: 1200px){
+    
+        
+    }
