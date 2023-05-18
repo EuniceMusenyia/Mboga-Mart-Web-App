@@ -107,6 +107,347 @@ img:hover{
     cursor: pointer;
 
 }
+.a2{
+    margin-bottom: 79px;
+    width: 90%;
+}
+.a3{
+    width: 50%;
+    /* background-image: url(images/image6_480.jpg); */
+
+}
+
+.a1 ul li{
+    list-style: none;
+    padding: 3px;
+    display: inline;
+    margin: 1rem;
+    /* background-image: url(images/image7_480.jpg); */
+}
+.a1{
+    display: flex;
+    border: 100%;
+}
+.img1{
+    width: 60px;
+    height: 60px;
+}
+/* .home{
+        background-image: url(/images/jjjj.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        background-attachment: fixed; */
+
+
+.home{
+  display: flex;
+  /* background-color: rgb(102, 192, 102); */
+}
+.img11{
+    height: 100%;
+    width: 100%;
+}
+.img22{
+    height: 100%;
+    width: 100%;
+}
+.btn1{
+    width: 30%;
+    background-color: orangered;
+}
+.a3{
+    width: 80%;
+
+}
+.a2{
+    width: 20%;
+    list-style: none;
+}
+.a2{
+    position: relative;
+    top: 15px;
+}
+/* .a1{
+    background-color: green; */
+
+.body{
+   height: 80vh;
+    background-color: rgb(94, 169, 94);
+}
+.part{
+    display: flex;
+}
+.word1{
+    padding-left: 15%;
+}
+.hello{
+    text-align: center;
+}
+.services{
+    width: 100%;
+    padding:60px 0px;
+    top: -200px;
+    position: relative;
+    height: 100px;
+}
+.services h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services h1 span{
+    margin-left: 15px;
+    color: rgb(230, 173, 16);
+    font-style: italic;
+}
+.services h1 span::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: rgb(16, 230, 16);
+    display: block;
+    position: relative;
+    bottom: 15px;
+}
+.services h2{
+    margin-left: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.services .services_box{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+.services .services_box .services_card{
+    width: 325px;
+    height: 380px;
+    padding-top: 10px;
+    /* margin-bottom: 30px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.services .services_box .services_card .services_image{
+    width: 300px;
+    height: 245px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.services .services_box .services_card .services_image img{
+    width: 250px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+    border-radius: 50px;
+}
+.services .services_box .services_card .services_image:hover img{
+    transform: scale(1.1);
+}
+.services .services_box .services_card .small_card{
+    width: 45px;
+    height: 45px;
+    float: right;
+    position: relative;
+    top: -240px;
+    right: -8px;
+    opacity: 1;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+.services .services_box .services_card:hover .small_card{
+    position: relative;
+    top: -240px;
+    right: 20px;
+    opacity: 1;
+}
+.services .services_box .services_card .small_card i{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+    color: #000;
+    cursor: pointer;
+    text-shadow: 0 0 6px #000;
+    transition: 0.2s;
+}
+.services .services_box .services_card i:hover{
+    color: rgb(16, 230, 16);
+}
+.services .services_box .services_card .services_info h2{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    font-size: 25px;
+    color: rgb(16, 230, 16);
+}
+.services .services_box .services_card .services_info p{
+    text-align: center;
+    margin-top: 8px;
+    line-height: 21px;
+}
+.services .services_box .services_card .services_info h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.services .services_box .services_card .services_info .services_icon{
+    color: rgb(16, 230, 16);
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+.services .services_box .services_card .services_info .services_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #F3E9E9;
+    background: rgb(16, 230, 16);
+    padding: 8px 10px;
+    margin: 0px 80px;
+    transition: 0.3s;
+}
+.hey{
+    text-align: center;
+}
+.pic{
+    display: flex;
+}
+.me{
+    text-align: center;
+  
+}
+.jk{
+    display: flex;
+}
+.btn2{
+    background-color: orangered;
+}
+.btn4{
+    padding: 15px;
+    margin-left: 105px;
+    width: 120px;
+    border-radius: 5px;
+   
+}
+.main{
+    
+        margin-bottom: 0;
+      
+}
+
+.s4{
+    text-align: center;
+  
+}
+.s5{
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.s6{
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 20px;
+}
+.s7{
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 20px;
+
+
+}
+.s8{
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 20px;
+}
+.s9{
+    border: solid;
+    width: 15%;
+    height: 25%;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.s10{
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 10px;
+    background-color:#f77071 ;
+}
+.s4{
+    text-align: center;
+    border: none;
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+   margin-left: 30%;
+   margin-top: 5%;
+   
+  
+}
+.s5{
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.s6{
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+
+}
+.s7{
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+
+
+}
+.s8{
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 15px;
+
+}
+.s9{
+    border: solid;
+    width: 15%;
+    height: 25%;
+    padding: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.s10{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 10px;
+    background-color:chartreuse ;
+}
+body{
+    background-color:rgb(235, 213, 213) ;
+}
+.a{
+    color: black;
+}
+.b{
+    color: black;
+}
+.q1{
+    font-size: 28px;
+}
+
+.btn4{
+    background-color: #ebd5d5;
+}
 @media screen and (max-width: 768px){
     .VEGETABLES{
         display: grid;
