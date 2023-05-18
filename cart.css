@@ -1,0 +1,141 @@
+#button{
+    width: 130%;
+    height: 5vh;
+    /* background-color: green; */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  counter-reset: number;
+}
+#button:hover{
+    opacity: 0.8;
+}
+#button:active{
+    content: counter(number);
+}
+#button:active::before{
+    counter-increment: number;
+  content: counter(number);
+}
+#button:active:active::before{
+
+  content: counter(number);
+}
+#b{
+    /* width: 5%; */
+    height: 5vh;
+    background: orange;
+}
+
+
+ body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  
+  .check {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid 1px;
+    width: 50%;
+    /* border-style: hidden; */
+    background-color: white;
+    /* box-shadow: 5px 5px 10px 10px black; */
+    margin-top: 10%;
+  }
+  #butt{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: orange;
+    margin-left: 600px;
+  }
+
+  /* table */
+  table{
+    margin-bottom: 40px;
+    margin-left: 400px;
+}
+th{
+    text-align: center;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* border: none; */
+}
+img{
+    width: 80px;
+    height: 100 px;
+}
+th,td{
+    padding: 30px;
+}
+/* tr:nth-child(odd){
+    background-color: rgb(41, 43, 56);
+} */
+.tr{
+    background-color: green;
+    color: white;
+}
+#td1{
+    color: maroon;
+}
+@media screen and (max-width: 768px){
+    body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    table{
+        margin: auto;
+        margin-bottom: 40px;
+        margin-left: 20px;
+        max-width: 30%;
+    }
+    tr{
+        max-width: 30%;
+    }
+    td{
+        max-width: 30%;
+    }
+    th,td{
+        padding: 10px;
+    }
+    button{
+        margin-left: 200%;
+    }
+}
+ @media screen and (max-width: 1024px){
+    body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    table{
+        margin-bottom: 40px;
+        margin-left: 20px;
+        max-width: 30%;
+    }
+    tr{
+        max-width: 50%;
+    }
+    td{
+        max-width: 50%;
+    }
+    th,td{
+        padding: 10px;
+    }
+} 
