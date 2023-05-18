@@ -6,6 +6,29 @@ body{
 h1{
     color: orange;
 }
+.Footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: green;
+    background-size: cover;
+    height: 30vh;
+    position: relative;
+    top: 300px;
+}
+li{
+    list-style: none;
+}
+#txt{
+    font-weight: bolder;
+    margin-top: 5%;
+}
+.icon{
+   font-size: x-large;
+}
+.img2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
 
 .signup{
     text-align: center;
