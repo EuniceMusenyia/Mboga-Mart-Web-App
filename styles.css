@@ -1,22 +1,40 @@
-body{
-    background-color: rgb(235, 213, 213);
+/* body{
+    
+    /* background-color: rgb(235, 213, 213); */
     margin: 0%;
     padding: 0%;
+    overflow-x: hidden;
+}
+p{
+    font-size: x-large;
+    font-weight: bold;
+}
+.vegs{
+
 }
 h1{
-    color: orange;
+    color: rgb(223, 159, 41);
+    /* font-variant: small-caps; */
+    font-size: 30px;
+    font-weight: 900;
+    /* padding-top: 5px; */
 }
+
 .Footer{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    background-color: green;
+    background-color: rgb(81, 143, 81);
     background-size: cover;
-    height: 30vh;
+    height: 18vh;
     position: relative;
     top: 300px;
+    color: white;
+    line-height: 25px;
+    padding: 0px 0px 0px 10px;
 }
 li{
     list-style: none;
+    font-size:large;
 }
 #txt{
     font-weight: bolder;
@@ -60,9 +78,15 @@ label{
 button{
     padding: 5px 20px;
     font-size: larger;
-    background-color: rgb(43, 224, 43);
+    background-color: rgb(75, 153, 75);
     border: none;
     border-radius: 10px;
+}
+#logo{
+    margin-top: -25px;
+    height: 50px;
+    width: 50px;
+  
 }
 a{
     text-decoration: none;
@@ -71,7 +95,7 @@ a{
 .VEGETABLES{
     display: flex;
     gap: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     margin-left: 40px;
 
 }
@@ -95,9 +119,32 @@ a{
     color: white;
 
 }
+.veege{
+    padding: 2%;
+    background-color: rgb(149, 194, 149);
+    /* background-color: white; */
+    /* background-color: rgb(172, 125, 125); */
+    border: solid;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding-top: 8%;
+
+
+}
+#pp{
+    height: 210px;
+}
+#melon{
+    width: 205px;
+    height: 219px;
+}
+#ban{
+    height:210px ;
+}
 img{
     width: 200px;
-    height: 220 px;
+    height: 218 px;
 }
 p{
     margin: 2%;
@@ -106,7 +153,7 @@ p{
 button{
     align-self: center;
     margin-left: 70px;
-    padding:10px 60px ;
+    padding:5px 20px ;
     margin: 2%;
     border-radius: 10px;
     border: none;
@@ -114,12 +161,18 @@ button{
 }
 h1{
     text-align: center;
-    color: orange;
+    color: black;
+    font-size: xx-large;
 
 
 }
+.body1{
+    /* background-color: white; */
+    /* background-color: rgb(159, 226, 204); */
+}
 h2{
     text-align: center;
+    padding-right: 250px;
 }
 button:hover{
     cursor: pointer;
@@ -135,16 +188,28 @@ img:hover{
     width: 90%;
 }
 .a3{
-    width: 50%;
+    /* background-color: blue; */
+    /* width: 50%; */
+
     /* background-image: url(images/image6_480.jpg); */
+
+}
+ul{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: rgb(101, 156, 101);
+    padding-top: 30px;
 
 }
 
 .a1 ul li{
     list-style: none;
-    padding: 3px;
+    padding: 20px;
     display: inline;
     margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
     /* background-image: url(images/image7_480.jpg); */
 }
 .a1{
@@ -152,7 +217,7 @@ img:hover{
     border: 100%;
 }
 .img1{
-    width: 60px;
+    width: 0px;
     height: 60px;
 }
 /* .home{
@@ -168,6 +233,29 @@ img:hover{
   display: flex;
   /* background-color: rgb(102, 192, 102); */
 }
+.btn4{
+    padding: 15px;
+    margin-left: 105px;
+    width: 120px;
+    border-radius: 20px;
+   
+   
+}
+.word1{
+    padding-left: 15%;
+}
+.word2{
+    font-size: x-large;
+    margin-top: 8%;
+
+}
+.btn4{
+    background-color: rgb(223, 193, 138);
+    margin-top: 25%;
+    margin-right: 35%;
+    justify-content: center;
+}
+
 .img11{
     height: 100%;
     width: 100%;
@@ -176,10 +264,14 @@ img:hover{
     height: 100%;
     width: 100%;
 }
+#best{
+    margin-top: 20%;
+}
 .btn1{
     width: 30%;
     background-color: orangered;
 }
+
 .a3{
     width: 80%;
 
@@ -197,14 +289,12 @@ img:hover{
 
 .body{
    height: 80vh;
-    background-color: rgb(94, 169, 94);
+    /* background-color: rgb(94, 169, 94); */
 }
 .part{
     display: flex;
 }
-.word1{
-    padding-left: 15%;
-}
+
 .hello{
     text-align: center;
 }
@@ -230,7 +320,7 @@ img:hover{
     content: '';
     width: 100%;
     height: 2px;
-    background: rgb(16, 230, 16);
+    /* background: rgb(16, 230, 16); */
     display: block;
     position: relative;
     bottom: 15px;
@@ -245,7 +335,10 @@ img:hover{
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 15px;
+    grid-gap: 10px;
+}
+p{
+    color:orchid;
 }
 .services .services_box .services_card{
     width: 325px;
@@ -278,7 +371,7 @@ img:hover{
     float: right;
     position: relative;
     top: -240px;
-    right: -8px;
+    /* right: -8px; */
     opacity: 1;
     border-radius: 7px;
     transition: 0.3s;
@@ -301,14 +394,14 @@ img:hover{
     transition: 0.2s;
 }
 .services .services_box .services_card i:hover{
-    color: rgb(16, 230, 16);
+    /* color: rgb(16, 230, 16); */
 }
 .services .services_box .services_card .services_info h2{
     width: 60%;
     text-align: center;
     margin: 10px auto 10px auto;
     font-size: 25px;
-    color: rgb(16, 230, 16);
+    /* color: rgb(16, 230, 16); */
 }
 .services .services_box .services_card .services_info p{
     text-align: center;
@@ -320,7 +413,7 @@ img:hover{
     margin-top: 10px;
 }
 .services .services_box .services_card .services_info .services_icon{
-    color: rgb(16, 230, 16);
+    /* color: rgb(16, 230, 16); */
     text-align: center;
     margin: 10px 0 20px 0;
 }
@@ -330,7 +423,7 @@ img:hover{
     justify-content: center;
     text-decoration: none;
     color: #F3E9E9;
-    background: rgb(16, 230, 16);
+    /* background: rgb(16, 230, 16); */
     padding: 8px 10px;
     margin: 0px 80px;
     transition: 0.3s;
@@ -351,13 +444,7 @@ img:hover{
 .btn2{
     background-color: orangered;
 }
-.btn4{
-    padding: 15px;
-    margin-left: 105px;
-    width: 120px;
-    border-radius: 5px;
-   
-}
+
 .main{
     
         margin-bottom: 0;
@@ -449,14 +536,9 @@ img:hover{
     border-radius: 10px;
     font-size: 15px;
 }
-.s10{
-    padding: 15px;
-    border-radius: 10px;
-    font-size: 10px;
-    background-color:chartreuse ;
-}
+
 body{
-    background-color:rgb(235, 213, 213) ;
+    /* background-color:rgb(235, 213, 213) ; */
 }
 .a{
     color: black;
@@ -468,10 +550,15 @@ body{
     font-size: 28px;
 }
 
-.btn4{
-    background-color: #ebd5d5;
-}
+
 @media screen and (max-width: 768px){
+    .body{
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        outline: none;
+    }
     .VEGETABLES{
         display: grid;
         grid-template-columns: 1r 1r 1r 1r;
@@ -497,6 +584,16 @@ body{
         width: 100%;
     
     } 
+    #pp{
+        height: 100px;
+    }
+    #melon{
+        width: 205px;
+        height: 219px;
+    }
+    #ban{
+        height:100px ;
+    }
     
 
 }
@@ -505,9 +602,38 @@ body{
 
 
 @media screen and (max-width: 800px){
+
     body{
-        overflow-x: hidden;
+        overflow-x: hidden ;
+        /* overflow-y: scroll; */
     }
+    ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        font-size: small;
+    }
+    h1 h2 p{
+        font-size: small;
+        font-weight: lighter;
+    }
+    .home{
+        display: flex ;
+        flex-direction: column;
+    }
+    .Footer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-bottom: 50px;
+    }
+    /* .img11 {
+        display: none !important;
+        
+    } */
+    /* .img22{
+        display: none !important;
+
+
+    } */
     input{
         padding: 5px;
         border-radius: 5px;
@@ -516,7 +642,7 @@ body{
     }
     .signup{
         box-shadow: 0 0 px 0 rgba(0,0,0, 0.3);
-        background: white;
+        background: rgb(223, 213, 213);
         padding: 0px;
         margin: 0% auto 0;
         background-repeat: no-repeat;
@@ -524,10 +650,162 @@ body{
       
         
     }
+    .VEGETABLES{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        margin-bottom: 100px;
+        margin-left: 40px;
+        width: 70%;
     
+    }
+    #melon{
+        width: 80px;
+        height: 100px;
+    }
+    
+    }
+    @media screen and(max-width:900px ) {
+        .body{
+            overflow-x: hidden;
+        }
+        .VEGETABLES{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+            margin-bottom: 100px;
+            margin-left: 40px;
+            width: 70%;
+        
+        }
+        #melon{
+            width: 80px;
+            height: 100px;
+        }
+        
     }
     
     @media screen  and(max-width: 1200px){
+        .VEGETABLES{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 40px;
+            margin-bottom: 100px;
+            margin-left: 40px;
+            width: 70%;
+        
+        }
+        .a1 ul li{
+            list-style: none;
+            padding: 10px;
+            display: inline;
+            margin: 1rem;
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            /* background-image: url(images/image7_480.jpg); */
+        }
+        #melon{
+            width: 80px;
+            height: 100px;
+        }
     
         
     }
+    @media screen and (max-width: 768px) {
+        .btn4 {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        margin-top: 10%;
+        justify-content: center;
+        }
+        
+        .word1 {
+        padding-left: 10%;
+        }
+        
+        .word2 {
+        font-size: large;
+        margin-top: 5%;
+        }
+        
+        #best {
+        margin-top: 15%;
+        }
+        .services .services_box {
+            grid-template-columns: 1fr;
+            gap: 10%;
+          }
+        }
+
+            @media screen and (max-width: 768px) {
+                .services {
+                  padding: 30px 0;
+                  top: 0;
+                  height: auto;
+                }
+              
+                .services h1 {
+                  font-size: 40px;
+                }
+              
+                .services h1 span::after {
+                  bottom: 5px;
+                }
+              
+                .services h2 {
+                  margin-left: 0;
+                  text-align: center;
+                }
+              
+                .services .services_box {
+                  grid-template-columns: 1fr;
+                  gap: 10%;
+                }
+              
+                .services .services_box .services_card {
+                  width: 100%;
+                  height: auto;
+                  margin-bottom: 30px;
+                }
+              
+                .services .services_box .services_card .services_image {
+                  width: 70%;
+                  height: 200px;
+                  border-radius: 0;
+                }
+              
+                .services .services_box .services_card .services_image img {
+                  width: 100%;
+                  height: 100%;
+                  border-radius: 0;
+                }
+              
+                .services .services_box .services_card .small_card {
+                  top: auto;
+                  right: auto;
+                  bottom: -30px;
+                  left: 50%;
+                  transform: translateX(-50%);
+                }
+              
+                .services .services_box .services_card .services_info h2 {
+                  width: 100%;
+                  text-align: center;
+                  margin: 10px auto;
+                  font-size: 20px;
+                }
+              
+                .services .services_box .services_card .services_info .services_btn {
+                  margin: 10px auto;
+                }
+              }
+              @media screen  and(max-width: 2000px){
+                .services .services_box .services_card {
+                    width: 30%;
+                    height: auto;
+                    margin-bottom: 30px;
+                    gap: 10px;
+                  }
+
+              } */

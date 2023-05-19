@@ -1,0 +1,217 @@
+nav {
+    background-color: #f2f2f2;
+  }
+  
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    list-style-type: none;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .menu a:hover {
+    color: #555;
+  }
+  
+  #logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* Hamburger menu styles */
+  #menu-toggle {
+    display: none;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    line-height: 1;
+    margin-right: 10px;
+  }
+  
+  /* Media query for small screens */
+  @media (max-width: 768px) {
+    .menu li {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    #menu-toggle:checked + .menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #menu-toggle:checked + .menu li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    #logo {
+      width: 40px;
+      height: 40px;
+    }
+  }
+#PRODUCTS {
+    text-align: center;
+  }
+  
+  #PRODUCTS h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    margin-bottom: 40px;
+  }
+  
+  .container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .VEGETABLES {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .VEGETABLES #vege {
+    flex-basis: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .VEGETABLES #vege img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .VEGETABLES #vege p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .VEGETABLES #vege button {
+    font-size: 14px;
+  }
+  
+  /* Media query for all phone screens and tablets */
+  @media (max-width: 1024px) {
+    .VEGETABLES #vege {
+      flex-basis: 50%;
+    }
+    
+    .VEGETABLES #vege img {
+      max-width: 150px;
+    }
+  }
+  
+  /* Media query for all phone screens */
+  @media (max-width: 600px) {
+    .VEGETABLES #vege {
+      flex-basis: 100%;
+    }
+    
+    .VEGETABLES #vege img {
+      max-width: 200px;
+    }
+  }
+  #categories {
+    text-align: center;
+  }
+  
+  #categories h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .services_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .services_card {
+    flex-basis: 300px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .services_image {
+    padding: 20px;
+  }
+  
+  .services_image img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .services_info {
+    padding: 20px;
+  }
+  
+  .services_info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .services_info h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .services_icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .services_icon i {
+    font-size: 16px;
+    color: gold;
+  }
+  
+  /* Media query for phone screens and tablets */
+  @media (max-width: 1024px) {
+    .services_card {
+      flex-basis: 45%;
+    }
+  
+    .services_image img {
+      max-width: 250px;
+    }
+  }
+  
+  /* Media query for phone screens */
+  @media (max-width: 600px) {
+    .services_card {
+      flex-basis: 100%;
+    }
+  
+    .services_image img {
+      max-width: 300px;
+    }
+  }
