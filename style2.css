@@ -1,56 +1,39 @@
-nav {
-    background-color: #0f3520;
-  }
-  html{
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
-  
-  .menu-icon {
-    display: none;
-    cursor: pointer;
-  }
-  
-  .menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
-    list-style-type: none;
-  }
-  
-  .menu li {
-    margin: 0 10px;
-  }
-  
-  .menu a {
-    text-decoration: none;
-    color:white;
-  }
-  
-  .menu a:hover {
-    color: #2b0ae6;
-  }
-  
+#sideNav{
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right: -500px;
+  top: 0;
+  background-color: #8fe0b4;
+  z-index: 2;
+  transition: .5s;
+}
+nav ul li{
+  list-style: none;
+  margin: 50px 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+#menuBtn{
+  width: 70px;
+  position: fixed;
+  right:25px ;
+  top: 20px;
+  z-index: 2;
+  cursor: pointer;
+}
+ /*  */
   #logo {
     width: 50px;
     height: 50px;
   }
-  
-  /* Hamburger menu styles */
-  #menu-toggle {
-    display: none;
-  }
-  
-  .menu-icon {
-    font-size: 24px;
-    line-height: 1;
-    margin-right: 10px;
-  }
+/*  */
   
   /* Media query for small screens */
   @media (max-width: 768px) {
-    .menu li {
+    #sideNav li {
       display: none;
     }
   
@@ -155,14 +138,22 @@ p{
     margin: 2%;
     text-align: center;
 }
+button a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  list-style: none;
+
+}
 button{
+
     align-self: center;
-    /* background-color: #0f3520; */
+    background-color: #0f3520;
     margin-left: 70px;
     padding:5px 20px ;
     margin: 2%;
     border-radius: 10px;
-    /* color: white; */
+    color: white;
     
     border: none;
 
@@ -201,20 +192,26 @@ img:hover{
   }
   #categories {
     text-align: center;
+    padding: 2%;
   }
   
   #categories h1 {
     font-size: 24px;
     margin-bottom: 20px;
   }
+  footer{
+    background-color: rgb(81, 143, 81);
+
+  }
   
   
   
   .Footer{
+    margin-left: 2%;
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
-    background-color: rgb(81, 143, 81);
+   
     background-size: cover;
     height: 18vh;
     position: relative;
@@ -254,7 +251,7 @@ li{
       /* margin: 1%; */
       border:solid none ;
       border-radius: 25px;
-      background-color: rgb(115, 179, 115);
+     
   }
   img{
       width: 150px;
@@ -278,6 +275,7 @@ li{
       height:100px ;
   }
   .Footer{
+    margin-left: 4%;
     width:90% ;
     display: grid;
     grid-template-columns:repeat(1,1fr);
@@ -295,7 +293,7 @@ h2{
 }
 nav {
   color: white;
-  background-color: #0c3a21;
+  background-color: #8fe0b4;
   width: 100%;
 }
 #categories {
@@ -303,6 +301,7 @@ nav {
   width: 100%;
   text-align: center;
 }
+
 
 
   

@@ -20,18 +20,19 @@
 
 <body>
   <div>
-    <nav>
-      <input type="checkbox" id="menu-toggle">
-      <label for="menu-toggle" class="menu-icon">&#9776;</label>
-      <ul class="menu">
+    <nav >
+      <!--  -->
+      <ul id="sideNav">
         <li><a href="index.html"><img id="logo" src="images2/Grocery-logo-removebg-preview.png" alt=""></a></li>
         <li><a href="/index.html">Home</a></li>
         <li><a href="#PRODUCTS">Products</a></li>
         <li><a href="#categories">Categories</a></li>
         <li><a href="#reviews">Our Reviews</a></li>
         <li><a href="#footer">Contacts</a></li>
-      </ul>
     </nav>
+    <img src="/images2/menu-removebg-preview (1).png" id="menuBtn">
+
+ 
   </div>
 
   <div id="categories">
@@ -224,7 +225,7 @@
         <h1>Our Reviews</h1>
         <div class="VEGETABLES">
           <div class="veege">
-            <img src="./images/rev1.jpg" alt="">
+            <img src="./images/rev1-removebg-preview.png" alt="">
             <div class="small_card">
               <i class="fa-regular fa-strawberry"></i>
             </div>
@@ -236,7 +237,7 @@
             <i class="fa-solid fa-star"></i>
           </div>
           <div class="veege">
-            <img src="/images/rev2.jpg" alt="">
+            <img src="/images/rev2-removebg-preview (1).png" alt="">
             <div class="small_card">
               <i class="fa-regular fa-strawberry"></i>
             </div>
@@ -248,7 +249,7 @@
             <i class="fa-solid fa-star"></i>
           </div>
           <div class="veege">
-            <img src="/images/rev3.jpg" alt="">
+            <img src="/images/rev3-removebg-preview (1).png" alt="">
             <div class="small_card">
               <i class="fa-regular fa-strawberry"></i>
             </div>
@@ -293,7 +294,19 @@
         </div>
       </footer>
     </div>
-
+    <script>
+      var menuBtn = document.getElementById("menuBtn");
+      var sideNav = document.getElementById("sideNav");
+      sideNav.style.right="-500px";
+      menuBtn.onclick = function(){
+        if(sideNav.style.right == "-500px"){
+          sideNav.style.right = "0";
+        }
+        else{
+          sideNav.style.right = "-500px";
+        }
+      }
+    </script>
 </body>
 
 </html>
