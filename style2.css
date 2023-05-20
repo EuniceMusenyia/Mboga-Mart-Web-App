@@ -1,5 +1,9 @@
 nav {
-    background-color: #f2f2f2;
+    background-color: #0f3520;
+  }
+  html{
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
   
   .menu-icon {
@@ -21,11 +25,11 @@ nav {
   
   .menu a {
     text-decoration: none;
-    color: #333;
+    color:white;
   }
   
   .menu a:hover {
-    color: #555;
+    color: #2b0ae6;
   }
   
   #logo {
@@ -87,54 +91,113 @@ nav {
     font-size: 20px;
     margin-bottom: 10px;
   }
+
   
-  .VEGETABLES {
+  .VEGETABLES{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .VEGETABLES #vege {
-    flex-basis: 25%;
-    padding: 10px;
-    box-sizing: border-box;
-  }
-  
-  .VEGETABLES #vege img {
-    width: 100%;
-    max-width: 100px;
-    height: auto;
-  }
-  
-  .VEGETABLES #vege p {
-    font-size: 14px;
-    margin-bottom: 5px;
-  }
-  
-  .VEGETABLES #vege button {
-    font-size: 14px;
-  }
-  
-  /* Media query for all phone screens and tablets */
-  @media (max-width: 1024px) {
-    .VEGETABLES #vege {
-      flex-basis: 50%;
-    }
+    gap: 40px;
+    margin-bottom: 80px;
+    /* margin-left: 40px; */
+
+}
+.container{
+    padding: 2%;
+    width: 1200px;
+    margin: 1%;
+    border:solid none ;
+    border-radius: 25px;
+    /* background-color: rgb(239, 245, 239); */
+    background-color: white;
+}
+#vege{
+    padding: 2%;
+    background-color: rgba(189, 226, 189, 0.7);
+    /* background-color: white; */
+    /* background-color: rgb(172, 125, 125); */
+    border: solid;
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+}
+.veege{
+    padding: 2%;
+    background-color: rgba(195, 230, 195, 0.7);
+    /* background-color: white; */
+    /* background-color: rgb(172, 125, 125); */
+    border: solid;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding-top: 8%;
+
+
+}
+#pp{
+    height: 200px;
+}
+#tm{
+  width: 250px;
+}
+#melon{
+    width: 205px;
+    height: 190px;
+}
+#ban{
+    height:205px ;
+}
+img{
+    width: 250px;
+    height: 218 px;
+}
+p{
+  color: orchid;
+    margin: 2%;
+    text-align: center;
+}
+button{
+    align-self: center;
+    /* background-color: #0f3520; */
+    margin-left: 70px;
+    padding:5px 20px ;
+    margin: 2%;
+    border-radius: 10px;
+    /* color: white; */
     
-    .VEGETABLES #vege img {
-      max-width: 150px;
-    }
-  }
-  
-  /* Media query for all phone screens */
-  @media (max-width: 600px) {
-    .VEGETABLES #vege {
-      flex-basis: 100%;
-    }
-    
-    .VEGETABLES #vege img {
-      max-width: 200px;
-    }
+    border: none;
+
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+
+
+}
+
+h2{
+    text-align: center;
+    padding-right: 250px;
+}
+button:hover{
+    cursor: pointer;
+    color: orange;
+}
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+.a2{
+    margin-bottom: 79px;
+    width: 90%;
+}
+.a3{
+    /* background-color: blue; */
+    /* width: 50%; */
+
+    /* background-image: url(images/image6_480.jpg); */
+
   }
   #categories {
     text-align: center;
@@ -145,73 +208,104 @@ nav {
     margin-bottom: 20px;
   }
   
-  .services_box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  
+  
+  .Footer{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(81, 143, 81);
+    background-size: cover;
+    height: 18vh;
+    position: relative;
+    /* top: 300px; */
+    color: white;
+    line-height: 25px;
+    padding: 0px 0px 0px 10px;
+}
+#cat{
+  height: 150px;
+}
+li{
+  list-style: none;
+  font-size:large;
+}
+@media screen and (max-width: 768px){
+  .body{
+      overflow-x: hidden;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      outline: none;
+      width: 100%;
   }
+  .VEGETABLES{
+      display: grid;
+      grid-template-columns: 1r 1r 1r 1r;
+      gap: 40px;
+      margin-bottom: 100px;
+      margin-left: 1px;
+      width: 90%;
   
-  .services_card {
-    flex-basis: 300px;
-    margin: 10px;
-    background-color: #f2f2f2;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  
-  .services_image {
-    padding: 20px;
+  .container{
+      /* padding: 2%; */
+      width: 100%;
+      /* margin: 1%; */
+      border:solid none ;
+      border-radius: 25px;
+      background-color: rgb(115, 179, 115);
   }
-  
-  .services_image img {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
+  img{
+      width: 150px;
+      height: 100 px;
   }
-  
-  .services_info {
-    padding: 20px;
+  #tm{
+    width: 200px;
   }
+   #vege{
+      width: 100%;
   
-  .services_info h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
+  } 
+  #pp{
+      height: 100px;
   }
-  
-  .services_info h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
+  #melon{
+      width: 200px;
+      height: 180px;
   }
-  
-  .services_icon {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+  #ban{
+      height:100px ;
   }
+  .Footer{
+    width:90% ;
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+    margin: 2%;
+    height: 400px;
+
+}
+h1{
+  margin-right:10%;
+  text-align: center;
+}
+h2{
+  text-align: center;
+
+}
+nav {
+  color: white;
+  background-color: #0c3a21;
+  width: 100%;
+}
+#categories {
+  margin-left: 2%;
+  width: 100%;
+  text-align: center;
+}
+
+
   
-  .services_icon i {
-    font-size: 16px;
-    color: gold;
-  }
+
+}
   
-  /* Media query for phone screens and tablets */
-  @media (max-width: 1024px) {
-    .services_card {
-      flex-basis: 45%;
-    }
-  
-    .services_image img {
-      max-width: 250px;
-    }
-  }
-  
-  /* Media query for phone screens */
-  @media (max-width: 600px) {
-    .services_card {
-      flex-basis: 100%;
-    }
-  
-    .services_image img {
-      max-width: 300px;
-    }
-  }
