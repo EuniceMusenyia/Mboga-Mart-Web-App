@@ -564,6 +564,9 @@ ul{
         }
 
             @media screen and (max-width: 768px) {
+                #menuBtn{
+                    display: block;
+                }
                 .services {
                   padding: 30px 0;
                   top: 0;
@@ -633,4 +636,4 @@ ul{
                     gap: 10px;
                   }
 
-              } */
+              } 
