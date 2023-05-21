@@ -31,7 +31,8 @@ li{
     font-size:large;
 }
 #txt{
-    font-weight: bolder;
+    font-weight: bold;
+    font-weight: 40%;
     margin-top: 5%;
 }
 .icon{

@@ -1,4 +1,4 @@
-
+/* 
 .hamburger-menu {
   position: relative;
   width: 100%;
@@ -59,7 +59,7 @@
   top: 50px;
   left: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: #d30e0e;
   display: none;
   z-index: 98;
 }
@@ -77,7 +77,7 @@
 
 .nav-menu li a:hover {
   color: #333;
-}
+} */
 /* .nav-menu{
   display: flex;
   gap: 60px;
@@ -94,6 +94,9 @@
     width: 50px;
     height: 50px;
     margin-top: 0%;
+  }
+  html{
+    margin: auto;
   }
 #PRODUCTS {
     text-align: center;
@@ -115,14 +118,15 @@
 
   
   .VEGETABLES{
+    width: 100%;
     display: flex;
-    gap: 40px;
+    gap: 30px;
     margin-bottom: 80px;
     /* margin-left: 40px; */
 
 }
 .container{
-    padding: 2%;
+    padding: 5%;
     width: 1200px;
     margin: 1%;
     border:solid none ;
@@ -131,6 +135,7 @@
     background-color: white;
 }
 #vege{
+  width: 100%;
     padding: 2%;
     background-color: rgba(189, 226, 189, 0.7);
     /* background-color: white; */
@@ -142,7 +147,9 @@
 
 }
 .veege{
+  width: 60%;
     padding: 2%;
+    align-items: center;
     background-color: rgba(195, 230, 195, 0.7);
     /* background-color: white; */
     /* background-color: rgb(172, 125, 125); */
@@ -150,7 +157,7 @@
     border: none;
     border-radius: 15px;
     color: white;
-    padding-top: 8%;
+    padding-top: 1%;
 
 
 }
@@ -168,7 +175,9 @@
     height:205px ;
 }
 img{
-    width: 250px;
+  position: relative;
+  left: 50px;
+    width: 200px;
     height: 218 px;
 }
 p{
@@ -178,6 +187,7 @@ p{
 }
 button a{
   text-decoration: none;
+  color: white;
 
   
 }
@@ -188,7 +198,7 @@ button{
     background-color: #198d4d;
     margin-left: 70px;
     padding:5px 20px ;
-    margin: 2%;
+    margin: 5%;
     border-radius: 10px;
     color: white;
     
@@ -235,10 +245,15 @@ img:hover{
   #categories h1 {
     font-size: 24px;
     margin-bottom: 20px;
+    
   }
   footer{
     background-color: rgb(81, 143, 81);
 
+  }
+  #reviews{
+    width: 80%;
+    margin-left: 8%;
   }
   
   
@@ -264,6 +279,154 @@ li{
   list-style: none;
   font-size:large;
 }
+
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background-color: #353836;
+  color: white;
+  font-family: "Poppins", sans-serif;
+} */
+
+header a {
+  text-decoration: none;
+}
+
+header {
+  padding: 0 20px;
+  background-color:rgb(92, 169, 92);
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#brand {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+#brand a {
+  color: #09c372;
+}
+
+ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul a {
+  list-style:none;
+  color:white;
+}
+
+ul li {
+  
+  padding: 5px;
+  margin-left: 10px;
+}
+
+ul li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+/* #login,
+#signup {
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+
+#login {
+  border: 1px solid #498afb;
+}
+
+#signup {
+  border: 1px solid #ff3860;
+}
+
+#signup a {
+  color: #ff3860;
+}
+
+#login a {
+  color: #498afb;
+} */
+
+#hamburger-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: calc(100vh - 50px);
+  width: 100%;
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  header nav {
+    background-color: black;
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+  ul{
+    background-color: black;
+    height: 20%;
+  }
+}
+
+
 @media screen and (max-width: 768px){
   .body{
       overflow-x: hidden;
@@ -276,7 +439,7 @@ li{
   .VEGETABLES{
       display: grid;
       grid-template-columns: 1r 1r 1r 1r;
-      gap: 40px;
+      gap: 60px;
       margin-bottom: 100px;
       margin-left: 1px;
       width: 90%;
