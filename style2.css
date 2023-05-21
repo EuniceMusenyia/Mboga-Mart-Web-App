@@ -1,68 +1,99 @@
-#sideNav{
-  width: 250px;
-  height: 50vh;
-  position: fixed;
-  right: -500px;
-  top: 0;
-  background-color: #d28fe0;
-  z-index: 2;
-  transition: .5s;
-}
-html{
-  overflow-y: scroll;
-  overflow-x: hidden;
+
+.hamburger-menu {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  z-index: 99;
 }
 
-nav ul{
-  list-style: none;
-  line-height: 2;
-  /* margin: 50px 20px; */
-}
-nav ul li a{
-  text-decoration: none;
-  color: white;
-}
-#menuBtn{
-  width: 70px;
-  position: fixed;
-  right:25px ;
-  top: 20px;
-  z-index: 2;
-  cursor: pointer;
+.hamburger-button {
+  position: relative;
   
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
 }
- /*  */
-  #logo {
+
+.hamburger-button .bar {
+  position: relative;
+  display: block;
+  width: 10%;
+  height: 2px;
+  background-color: #000;
+  margin: 0 10px;
+  transition: 0.2s;
+}
+
+.hamburger-button .bar:nth-child(1) {
+  transform: rotate(0deg);
+}
+
+.hamburger-button .bar:nth-child(2) {
+  transform: rotate(0deg);
+}
+
+.hamburger-button .bar:nth-child(3) {
+  transform: rotate(180deg);
+}
+
+.hamburger-menu.active .bar {
+  transform: rotate(0deg);
+}
+
+.hamburger-menu.active .bar:nth-child(1) {
+  transform: rotate(-90deg);
+}
+
+.hamburger-menu.active .bar:nth-child(2) {
+  transform: rotate(0deg);
+}
+
+.hamburger-menu.active .bar:nth-child(3) {
+  transform: rotate(90deg);
+}
+.nav-menu {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  display: none;
+  z-index: 98;
+}
+
+.nav-menu li {
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+.nav-menu li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-menu li a:hover {
+  color: #333;
+}
+/* .nav-menu{
+  display: flex;
+  gap: 60px;
+  display:inline-flex;
+  width: 100%;
+
+}
+.nav-menu  li a{
+  margin: 20%;
+  text-decoration: none;
+  margin-bottom: 10%;
+} */
+#logo {
     width: 50px;
     height: 50px;
-  }
-/*  */
-  
-  /* Media query for small screens */
-  @media (max-width: 768px) {
-    #sideNav li {
-      /* display: none; */
-    }
-  
-    .menu-icon {
-      display: block;
-    }
-  
-    #menu-toggle:checked + .menu {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    #menu-toggle:checked + .menu li {
-      display: block;
-      margin: 10px 0;
-    }
-  
-    #logo {
-      width: 40px;
-      height: 40px;
-    }
+    margin-top: 0%;
   }
 #PRODUCTS {
     text-align: center;
@@ -147,13 +178,14 @@ p{
 }
 button a{
   text-decoration: none;
-  color: white;
+
+  
 }
 button{
 
   list-style: none;
     align-self: center;
-    background-color: #0f3520;
+    background-color: #198d4d;
     margin-left: 70px;
     padding:5px 20px ;
     margin: 2%;
@@ -233,32 +265,6 @@ li{
   font-size:large;
 }
 @media screen and (max-width: 768px){
-  #sideNav{
-    width: 250px;
-    height: 100vh;
-    position: fixed;
-    right: -500px;
-    top: 0;
-    background-color: #d28fe0;
-    z-index: 2;
-    transition: .5s;
-  }
-  nav ul li{
-    list-style: none;
-    margin: 50px 20px;
-  }
-  nav ul li a{
-    text-decoration: none;
-    color: white;
-  }
-  #menuBtn{
-    width: 70px;
-    position: fixed;
-    right:25px ;
-    top: 20px;
-    z-index: 2;
-    cursor: pointer;
-  }
   .body{
       overflow-x: hidden;
       padding: 0;
@@ -333,9 +339,6 @@ nav {
   text-align: center;
 }
 
-
-
   
 
 }
-  
