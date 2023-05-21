@@ -147,9 +147,9 @@
 
 }
 .veege{
-  width: 60%;
-    padding: 2%;
-    align-items: center;
+  width: 100%;
+    padding: 2%; 
+    /* align-items: center; */
     background-color: rgba(195, 230, 195, 0.7);
     /* background-color: white; */
     /* background-color: rgb(172, 125, 125); */
@@ -157,7 +157,7 @@
     border: none;
     border-radius: 15px;
     color: white;
-    padding-top: 1%;
+    /* padding-top: 1%; */
 
 
 }
@@ -168,11 +168,11 @@
   width: 250px;
 }
 #melon{
-    width: 205px;
+    width: 200px;
     height: 190px;
 }
 #ban{
-    height:205px ;
+    height:200px ;
 }
 img{
   position: relative;
@@ -239,13 +239,16 @@ img:hover{
   }
   #categories {
     text-align: center;
-    padding: 2%;
+    padding: 8%;
   }
   
   #categories h1 {
     font-size: 24px;
     margin-bottom: 20px;
     
+  }
+  #categories .veege{
+    width: 70%;
   }
   footer{
     background-color: rgb(81, 143, 81);
@@ -422,7 +425,7 @@ ul li:hover {
   }
   ul{
     background-color: black;
-    height: 20%;
+    /* height: 20%; */
   }
 }
 
