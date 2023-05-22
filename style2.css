@@ -90,6 +90,11 @@
   text-decoration: none;
   margin-bottom: 10%;
 } */
+
+html{
+  scroll-behavior: smooth;
+  
+}
 #logo {
     width: 50px;
     height: 50px;
@@ -153,7 +158,7 @@
 }
 .veege{
   width: 100%;
-    padding: 1%; 
+    /* padding: 1%;  */
     align-items: center;
     background-color: rgba(195, 230, 195, 0.7);
     /* background-color: white; */
@@ -253,6 +258,7 @@ img:hover{
   #categories h1 {
     font-size: 24px;
     margin-bottom: 20px;
+    margin-top: 20px;
     
   }
   #categories .veege{
@@ -316,7 +322,7 @@ header a {
 header {
   padding: 0 20px;
   background-color:rgb(92, 169, 92);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 5); */
   z-index: 1000;
   position: fixed;
   width: 100%;
@@ -347,7 +353,7 @@ ul {
 
 ul a {
   list-style:none;
-  color:black;
+  color: white;
 }
 
 ul li {
@@ -425,6 +431,7 @@ ul li:hover {
   left: 0;
   height: calc(100vh - 50px);
   width: 100%;
+    height: 300%;
 }
 
 .mobile-menu li {
@@ -478,7 +485,7 @@ ul li:hover {
   header{
     position: fixed;
     width: 100%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 5); */
   z-index: 1000;
   }
   h1 {
@@ -496,9 +503,9 @@ ul li:hover {
   ul {
   flex-direction: column;
   align-items: flex-start;
-  background-color: rgb(110, 168, 110);
-  height: 20%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+  background-color:rgb(92, 169, 92);
+    height: 20%;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 5); */
   /* z-index: 1000; */
   
   
