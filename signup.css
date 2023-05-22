@@ -1,0 +1,120 @@
+body{
+    /* background-color: rgb(235, 213, 213); */
+    margin: 0%;
+    padding: 0%;
+    /* background-image: url(mboga1.jpg) ; */
+}
+h1{
+    color: orange;
+}
+.signup{
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0, 0.3);
+    background: white;
+    padding: 20px;
+    margin: 8% auto 0;
+    /* background-image: url(mboga2.jpg); */
+    background-repeat: no-repeat;
+    justify-content: center;
+    /* background-color: white; */
+}
+form{
+    /* background-color: aqua; */
+}
+label, input, button{
+    margin-top: 5%;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: rgb(197, 169, 118) 1px solid;
+    width: 80%;
+    /* display: inline-block; */
+}
+label{
+    font-size: large;
+    display: inline-block;
+    text-align: right;
+}
+button{
+    padding: 5px 20px;
+    font-size: larger;
+    background-color: rgb(43, 224, 43);
+    border: none;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width: 800px){
+    body{
+        overflow-x: hidden;
+    }
+    input{
+        padding: 5px;
+        border-radius: 5px;
+        border: rgb(197, 169, 118) 1px solid;
+        width: 40%;
+        /* display: inline-block; */
+    }
+    .signup{
+        /* text-align: center; */
+        /* width: 200px; */
+        box-shadow: 0 0 px 0 rgba(0,0,0, 0.3);
+        background: white;
+        padding: 0px;
+        margin: 0% auto 0;
+        /* background-image: url(mboga2.jpg); */
+        background-repeat: no-repeat;
+        justify-content: center;
+        /* background-color: white; */
+    }
+    }
+
+    table {
+        
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      table, th, td {
+        border:1px solid black;
+      }
+      #inventory{
+        text-align: center;
+
+      }
+      /* Common Media Queries */
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+    table {
+      font-size: 12px; /* Adjust font size as needed */
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    table {
+      font-size: 14px; /* Adjust font size as needed */
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    table {
+      font-size: 16px; /* Adjust font size as needed */
+    }
+  }
+  
