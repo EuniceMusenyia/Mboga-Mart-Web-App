@@ -11,8 +11,10 @@
 #button:hover{
     opacity: 0.8;
 }
+
 #button:active{
     content: counter(number);
+    
 }
 #button:active::before{
     counter-increment: number;
@@ -22,22 +24,50 @@
 
   content: counter(number);
 }
-#b{
-    padding: 8px 18px;
+#bu{
+    width: 28%;
     border-radius: 10px;
-    background-color:rgb(247, 171, 171);
-    margin-left: 50px;
+    border: none;
+    background-color: rgb(99, 163, 99);
+    /* padding: 0px;
+    padding-top: 10px;
+    padding-left: 0px; */
+}
+#b{
+    padding: 8px 25px;
+    border-radius: 15px;
+    background-color:rgb(106, 156, 106);
+    /* margin-left: 50px; */
     border: none;
     margin-bottom: 5%;
+color: white;}
+.BUTT{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 25%;
+    gap: 0%;
 }
 
 .checkout{
-    font-size: xx-large;
+    font-size: x-large;
 }
-input {
-    border: solid rgb(228, 204, 204) 7px;
-border-radius: 30px;}
-
+/* input {
+    border: solid  orange 1px;
+    border-style: none;
+border-radius: 30px;
+} */
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: rgb(197, 169, 118) 1px solid;
+    width: 80%;
+    /* display: inline-block; */
+}
+/* label{
+    font-size: large;
+    display: inline-block;
+    text-align: right;
+} */
  body {
     /* height: 100%;
     margin: 0;
@@ -70,12 +100,17 @@ border-radius: 30px;}
     margin-top: 10%;
   }
   #butt{
-    padding: 8px 18px;
-    border-radius: 10px;
-    background-color: rgb(197, 140, 33);
+    padding: 6px 23px;
+    border-radius: 20px;
+    background-color: rgb(121, 185, 121);
     margin-left: 500px;
     border: none;
-    /* margin-bottom: 20%; */
+    margin-bottom: 3%;
+    color: white;
+    
+  }
+  button{
+    color: white;
   }
 
   /* table */
